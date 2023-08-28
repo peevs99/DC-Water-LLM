@@ -2,7 +2,7 @@ import streamlit as st
 
 
 #Config
-st.set_page_config(layout="wide", page_icon="💬", page_title="Wendy | DC Water LLM 💧")
+st.set_page_config(layout="wide", page_icon="💧", page_title="Wendy | DC Water LLM")
 
 # Add custom CSS for changing link color and reducing spacing
 st.markdown("""
@@ -29,11 +29,12 @@ st.markdown("""
 
 with st.sidebar.expander("📬 Contact"):
 
-    # Display GitHub links
+    # Display creators
     st.markdown("""
-    **GitHub:**  
-    [Phanindra Vantipalli](https://github.com/peevs99)  
-    [Yogita Attaluri](https://github.com/YogitaAttaluri)
+    **Created by** \n 
+    Phanindra Vantipalli  
+    Dolly Gada  
+    Laxmi Yogita Attaluri
     """, unsafe_allow_html=True)
     
     # Display LinkedIn links
@@ -42,6 +43,13 @@ with st.sidebar.expander("📬 Contact"):
     [Dolly Gada](https://www.linkedin.com/in/dolly-gada/)  
     [Phanindra Vantipalli](https://www.linkedin.com/in/phanindra-vantipalli/)  
     [Yogita Attaluri](https://www.linkedin.com/in/laxmiyogitaattaluri/)
+    """, unsafe_allow_html=True)
+
+    # Display GitHub links
+    st.markdown("""
+    **GitHub:**  
+    [Phanindra Vantipalli](https://github.com/peevs99)  
+    [Yogita Attaluri](https://github.com/YogitaAttaluri)
     """, unsafe_allow_html=True)
     
     # Display Email links
@@ -52,19 +60,13 @@ with st.sidebar.expander("📬 Contact"):
     yogitalakshmi0805@gmail.com
     """, unsafe_allow_html=True)
     
-    # Display creators
-    st.markdown("""
-    **Created by** \n 
-    Phanindra Vantipalli  
-    Dolly Gada  
-    Laxmi Yogita Attaluri
-    """, unsafe_allow_html=True)
+
 
 
 #Title
 st.markdown(
     """
-    <h2 style='text-align: center;'>Wendy, the DC Water Assistant LLM 💧</h1>
+    <h2 style='text-align: center;'>Wendy - the DC Water AI💧</h1>
     """,
     unsafe_allow_html=True,)
 
@@ -74,10 +76,10 @@ st.markdown("---")
 #Description
 st.markdown(
     """ 
-    <h5 style='text-align:justify;'>Wendy is DC Water's adorable mascot, symbolizing the essence of water. 
+    <h5 style='text-align:center;'>Wendy is DC Water's adorable mascot, symbolizing the essence of water. 
     She's a water droplet who educates and reminds us of the crucial role water plays in our lives, 
     from hydration to sanitation. Through Wendy, DC Water encourages everyone to conserve water 
-    and understand its significance </h5>
+    and understand its significance!</h5>
     """,
     unsafe_allow_html=True)
 st.markdown("---")

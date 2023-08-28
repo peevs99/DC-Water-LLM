@@ -9,10 +9,10 @@ class ChatHistory:
         st.session_state["history"] = self.history
 
     def default_greeting(self):
-        return "Hey Wendy ! 👋"
+        return "Hello Wendy! 👋"
 
     def default_prompt(self, topic):
-        return f"Hello ! Ask me anything about {topic} 🤗"
+        return f"Hello ! Ask me about DC Water!"
 
     def initialize_user_history(self):
         st.session_state["user"] = [self.default_greeting()]
@@ -44,9 +44,9 @@ class ChatHistory:
                         st.session_state["user"][i],
                         is_user=True,
                         key=f"history_{i}_user",
-                        avatar_style="big-smile",
+                        avatar_style="thumbs"
                     )
-                    message(st.session_state["assistant"][i], key=str(i), avatar_style="thumbs")
+                    message(st.session_state["assistant"][i], key=str(i), avatar_style="bottts", seed="Felix")
 
     def load(self):
         if os.path.exists(self.history_file):

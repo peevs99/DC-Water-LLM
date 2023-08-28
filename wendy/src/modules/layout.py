@@ -8,7 +8,7 @@ class Layout:
         """
         st.markdown(
             f"""
-            <h1 style='text-align: center;'> Splash in with Wendy💧, for all your water wonders and whys! 🌊</h1>
+            <h1 style='text-align: center;'> Wendy AI💧, for all your DC water wonders and whys!</h1>
             """,
             unsafe_allow_html=True,
         )
@@ -33,7 +33,7 @@ class Layout:
         with st.form(key="my_form", clear_on_submit=True):
             user_input = st.text_area(
                 "Query:",
-                placeholder="Ask me anything about the document...",
+                placeholder="Ask me anything about the DC Water...",
                 key="input",
                 label_visibility="collapsed",
             )
