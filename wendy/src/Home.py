@@ -85,20 +85,6 @@ st.markdown(
 st.markdown("---")
 
 
-#Robby's Pages
-#st.subheader("🚀 Robby's Pages")
-#st.write("""
-#- **Robby-Sheet** (beta): Chat on tabular data (CSV) | for precise information | process the whole file | works with [CSV_Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/csv.html) + [PandasAI](https://github.com/gventuri/pandas-ai) for data manipulation and graph creation
-#- **Robby-Youtube**: Summarize YouTube videos with [summarize-chain](https://python.langchain.com/en/latest/modules/chains/index_examples/summarize.html)
-#""")
-#st.markdown("---")
-
-
-#Contributing
-#st.markdown("### 🎯 Contributing")
-#st.markdown("""
-#**Robby is under regular development. Feel free to contribute and help me make it even more data-aware!**
-#""", unsafe_allow_html=True)
 
 
 

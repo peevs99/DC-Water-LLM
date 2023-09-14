@@ -4,7 +4,6 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts.prompt import PromptTemplate
 from langchain.callbacks import get_openai_callback
 
-#fix Error: module 'langchain' has no attribute 'verbose'
 import langchain
 langchain.verbose = False
 
