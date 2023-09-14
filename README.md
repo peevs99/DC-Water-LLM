@@ -2,15 +2,21 @@
 
 # App Link: https://wendyai-dcwaterllm.streamlit.app/
 
+# 🚨 Data Usage Disclaimer 🚨
+
+Important: The actual data behind Wendy AI is proprietary to DC Water and is not accessible to external parties. For demonstration and querying purposes, we rely solely on the publicly available ANNUAL report 2022 of DC Water.
+
+Reference: You can download and consult the ANNUAL report 2022 from here: https://www.dcwater.com/sites/default/files/annual_report_2022_FINAL2.pdf
+
+Await Wendy AI's response which will be displayed on the UI.
+
 # Overview
 Wendy AI is a specialized AI-driven customer service platform developed for DC Water. It's designed to handle various water supply chain operations and service-related queries, synergizing advanced NLP techniques, Large Language Models, and LLM prompt engineering.
 
 # Key Features
-RAG Application
-
-Specialized Responses
-
-Integration & Framework
+1. RAG Application
+2. Specialized Responses
+3. Integration & Framework
 
 # Technologies and Methods Used
 
@@ -46,14 +52,16 @@ gh repo clone peevs99/DC-Water-LLM
 2. Navigate to the wendy project directory and then the src directory:
 
 cd wendy
+
 cd src
 
 3. Set up a virtual environment (optional):
 
    python -m venv venv
+   
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-4. Install the required packages:
+5. Install the required packages:
 
 pip install -r requirements.txt
 
@@ -67,14 +75,6 @@ Visit the provided link in your browser to interact with Wendy AI.
 Interact with Wendy AI:
 
 Once the Streamlit UI is active in your browser, enter your water service-related query in the provided input field.
-
-# 🚨 Data Usage Disclaimer 🚨
-
-Important: The actual data behind Wendy AI is proprietary to DC Water and is not accessible to external parties. For demonstration and querying purposes, we rely solely on the publicly available ANNUAL report 2022 of DC Water.
-
-Reference: You can download and consult the ANNUAL report 2022 from here: https://www.dcwater.com/sites/default/files/annual_report_2022_FINAL2.pdf
-
-Await Wendy AI's response which will be displayed on the UI.
 
 # For Developers:
 
