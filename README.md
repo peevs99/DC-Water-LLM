@@ -45,29 +45,22 @@ Python 3.8+
 Virtual environment (optional but recommended)
 
 # Steps:
-1. Clone the repository:
-
-gh repo clone peevs99/DC-Water-LLM
+1. Clone the repository: gh repo clone peevs99/DC-Water-LLM
 
 2. Navigate to the wendy project directory and then the src directory:
 
 cd wendy
-
 cd src
 
 3. Set up a virtual environment (optional):
-
-   python -m venv venv
-   
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 5. Install the required packages:
-
 pip install -r requirements.txt
 
 # Usage
 Run the Streamlit app:
-
 streamlit run Home.py
 
 Visit the provided link in your browser to interact with Wendy AI.
