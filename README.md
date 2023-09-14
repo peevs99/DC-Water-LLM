@@ -60,7 +60,9 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # Usage
+
 Run the Streamlit app:
+
 streamlit run Home.py
 
 Visit the provided link in your browser to interact with Wendy AI.
@@ -84,9 +86,9 @@ We encourage community contributions to enhance Wendy AI's capabilities. Here's 
 
 
 # Acknowledgements
-OpenAI: For providing foundational knowledge and resources on LLMs.
-Streamlit Community: For hosting and supporting our user interface.
-LangChain: For the comprehensive framework that powered significant parts of Wendy AI.
-DC Water: For the opportunity to serve and enhance their customer service operations.
-Community & Contributors: Thank you to everyone who contributed their time, knowledge, and feedback to make Wendy AI a success.
+1. OpenAI: For providing foundational knowledge and resources on LLMs.
+2. Streamlit Community: For hosting and supporting our user interface.
+3. LangChain: For the comprehensive framework that powered significant parts of Wendy AI.
+4. DC Water: For the opportunity to serve and enhance their customer service operations.
+5. Community & Contributors: Thank you to everyone who contributed their time, knowledge, and feedback to make Wendy AI a success.
 
