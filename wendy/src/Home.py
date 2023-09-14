@@ -66,7 +66,7 @@ with st.sidebar.expander("📬 Contact"):
 #Title
 st.markdown(
     """
-    <h2 style='text-align: center;'>Wendy - the DC Water AI💧</h1>
+    <h2 style='text-align: center;'>Wendy AI – Gen AI Customer Service LLM for DC Water💧</h1>
     """,
     unsafe_allow_html=True,)
 
