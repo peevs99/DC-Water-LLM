@@ -9,12 +9,12 @@ st.markdown("""
 <style>
     /* Change anchor element color */
     a {
-        color: #000 !important; /* Change this to your desired link color */
+        color: #fff !important; /* Change this to your desired link color */
     }
 
     /* Change the hover color */
     a:hover {
-        color: #fff !important; /* Change this to your desired hover color */
+        color: #abc !important; /* Change this to your desired hover color */
     }
 
     /* Reduce spacing */
@@ -32,7 +32,7 @@ with st.sidebar.expander("📬 Contact"):
     # Display LinkedIn links
     st.markdown("""
     <h2>
-    <span style='color: black; font-weight: bold'>Created By</span></h2>
+    <span style='color: white; font-weight: bold'>Created By</span></h2>
     \n 
     [Dolly Gada](https://www.linkedin.com/in/dolly-gada/)  
     [Phanindra Vantipalli](https://www.linkedin.com/in/phanindra-vantipalli/)  
@@ -42,7 +42,7 @@ with st.sidebar.expander("📬 Contact"):
     # Display GitHub links
     st.markdown("""
     <h2>
-    <span style='color: black; font-weight: bold'>Git Hub</span></h2>
+    <span style='color: white; font-weight: bold'>Git Hub</span></h2>
     \n 
     [Phanindra Vantipalli](https://github.com/peevs99)  
     [Yogita Attaluri](https://github.com/YogitaAttaluri)
@@ -51,7 +51,7 @@ with st.sidebar.expander("📬 Contact"):
     # Display Email links
     st.markdown("""
     <h2>
-    <span style='color: black; font-weight: bold'>Email</span></h2>
+    <span style='color: white; font-weight: bold'>Email</span></h2>
     \n 
     vantipalliphanindra@gmail.com  
     dollygada10@gmail.com  
